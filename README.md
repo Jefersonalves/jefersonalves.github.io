@@ -1,12 +1,8 @@
-# Cleanfolio Minimal
+# Jeferson Alves' Portfolio
 
-A portfolio template built with HTML, CSS, and JavaScript.
+A portfolio built using [cleanfolio-minimal template](https://github.com/rajshekhar26/cleanfolio-minimal).
 
-## Preview
-
-[![imgur](https://i.imgur.com/5z7cvMz.gif)](https://rajshekhar26.github.io/cleanfolio-minimal)
-
-[Live Demo](https://rajshekhar26.github.io/cleanfolio-minimal)
+[Live Demo](https://jefersonalves.com)
 
 ## License
 
