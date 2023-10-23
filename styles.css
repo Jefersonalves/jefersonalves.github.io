@@ -33,6 +33,7 @@ body {
   --clr-fg-alt: #444;
   --clr-primary: #2978b5;
   --shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+  --clr-section: #7AB8BF;
 }
 
 .dark {
@@ -43,6 +44,7 @@ body {
   --clr-primary: #90a0d9;
   --shadow: rgba(0, 0, 0, 0.16) 0px 10px 36px 0px,
     rgba(0, 0, 0, 0.06) 0px 0px 0px 1px;
+  --clr-section: #7AB8BF;
 }
 
 ::-moz-selection {
@@ -239,7 +241,6 @@ main {
 .section__title {
   text-align: center;
   margin-bottom: 1em;
-  text-transform: uppercase;
 }
 
 .nav__list {
@@ -304,7 +305,7 @@ main {
 }
 
 .project:hover {
-  transform: translateY(-7px);
+  transform: translateY(-5px);
 }
 
 .project__description {
@@ -326,6 +327,46 @@ main {
 }
 
 .project .link--icon {
+  margin-left: 0.5em;
+}
+
+.resume__grid {
+  max-width: 1100px;
+  margin: 0 auto;
+}
+
+.resume {
+  padding: 2em;
+  margin: 0 auto;
+  margin-bottom: 2em;
+  text-align: center;
+  box-shadow: var(--shadow);
+  transition: transform 0.2s linear;
+}
+
+.resume:hover {
+  transform: translateY(-5px);
+}
+
+.resume__description {
+  margin-top: 1em;
+}
+
+.resume__stack {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin: 1.2em 0;
+}
+
+.resume__stack-item {
+  margin: 0.5em;
+  font-weight: 500;
+  font-size: 0.8rem;
+  color: var(--clr-fg-alt);
+}
+
+.resume .link--icon {
   margin-left: 0.5em;
 }
 
@@ -353,10 +394,16 @@ main {
 }
 
 .footer__link {
-  font-size: 0.9rem;
+  font-size: 0.6rem;
   font-weight: 700;
   color: var(--clr-fg);
 }
+
+.footer__credits {
+    font-size: 0.6rem;
+    font-weight: 700;
+    color: var(--clr-fg);
+  }
 
 .scroll-top {
   display: none;
