@@ -137,9 +137,10 @@ button {
 }
 
 .link--icon--about {
-  color: var(--clr-fg);
-  font-size: 1.8rem;
+  color: var(--clr-primary);
+  font-size: 2.5rem;
   margin-left: 2rem;
+  margin-right: 2rem;
 }
 
 .link--icon {
