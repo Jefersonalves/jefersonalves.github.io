@@ -56,31 +56,68 @@
 
       <!-- Projects -->
       <section id="projects" class="section projects">
-        <h2 class="section__title">Projects</h2>
+        <h2 class="section__title">Selected Open Projects</h2>
 
         <div class="projects__grid">
           <div class="project">
-            <h3>Project 1</h3>
+            <h3>Chess Data Lake</h3>
             <p class="project__description">
-              Ipsum accusamus ea excepturi aliquid eligendi amet. Explicabo
-              sapiente debitis labore sed ipsam Mollitia repellat illum quod
-              unde beatae Quis
+                A Data Lake project using AWS services to ingest, store, transform, and analyze chess game data
             </p>
             <ul class="project__stack">
-              <li class="project__stack-item">SASS</li>
-              <li class="project__stack-item">TypeScript</li>
-              <li class="project__stack-item">React</li>
+              <li class="project__stack-item">Apache Spark</li>
+              <li class="project__stack-item">AWS Glue</li>
+              <li class="project__stack-item">AWS Athena</li>
+              <li class="project__stack-item">AWS S3</li>
             </ul>
 
             <a
-              href="https://github.com"
+              href="https://github.com/Jefersonalves/chess-data-lake"
+              aria-label="source code"
+              class="link link--icon"
+            >
+              <i aria-hidden="true" class="fab fa-github"></i>
+            </a>
+            <!-- <a
+              href="https://example.com"
+              aria-label="live preview"
+              class="link link--icon"
+            >
+              <i aria-hidden="true" class="fas fa-external-link-alt"></i>
+            </a> -->
+          </div>
+
+          <div class="project">
+            <h3>Querido Diário/Querido diário data processing</h3>
+            <p class="project__description">
+                Project to scrape websites publishing official gazzetes
+                of Brazilian municipalities in order to make them more accessible and transparent
+            </p>
+            <ul class="project__stack">
+              <li class="project__stack-item">Scrapy</li>
+              <li class="project__stack-item">MinIO</li>
+              <li class="project__stack-item">PostgreSQL</li>
+              <li class="project__stack-item">Elastic Search</li>
+              <li class="project__stack-item">Podman</li>
+            </ul>
+
+            <a
+              href="https://github.com/okfn-brasil/querido-diario"
               aria-label="source code"
               class="link link--icon"
             >
               <i aria-hidden="true" class="fab fa-github"></i>
             </a>
             <a
-              href="https://example.com"
+              href="https://github.com/okfn-brasil/querido-diario-data-processing"
+              aria-label="source code"
+              class="link link--icon"
+            >
+              <i aria-hidden="true" class="fab fa-github"></i>
+            </a>
+
+            <a
+              href="https://queridodiario.ok.org.br/"
               aria-label="live preview"
               class="link link--icon"
             >
@@ -89,64 +126,83 @@
           </div>
 
           <div class="project">
-            <h3>Project 2</h3>
+            <h3>Grape diseases</h3>
             <p class="project__description">
-              Ipsum accusamus ea excepturi aliquid eligendi amet. Explicabo
-              sapiente debitis labore sed ipsam Mollitia repellat illum quod
-              unde beatae Quis
+              ML project that uses AWS Sagemaker to train a RandomForest classifier to identify
+              and classify leaf images into three disease classes and one missing disease class
             </p>
             <ul class="project__stack">
-              <li class="project__stack-item">SASS</li>
-              <li class="project__stack-item">TypeScript</li>
-              <li class="project__stack-item">React</li>
+              <li class="project__stack-item">Scikit-Learn</li>
+              <li class="project__stack-item">AWS Sagemaker</li>
             </ul>
 
             <a
-              href="https://github.com"
+              href="https://github.com/Jefersonalves/grape-diseases"
               aria-label="source code"
               class="link link--icon"
             >
               <i aria-hidden="true" class="fab fa-github"></i>
             </a>
-            <a
-              href="https://example.com"
-              aria-label="live preview"
-              class="link link--icon"
-            >
-              <i aria-hidden="true" class="fas fa-external-link-alt"></i>
-            </a>
           </div>
 
-          <div class="project">
-            <h3>Project 3</h3>
-            <p class="project__description">
-              Ipsum accusamus ea excepturi aliquid eligendi amet. Explicabo
-              sapiente debitis labore sed ipsam Mollitia repellat illum quod
-              unde beatae Quis
-            </p>
-            <ul class="project__stack">
-              <li class="project__stack-item">SASS</li>
-              <li class="project__stack-item">TypeScript</li>
-              <li class="project__stack-item">React</li>
-            </ul>
-
-            <a
-              href="https://github.com"
-              aria-label="source code"
-              class="link link--icon"
-            >
-              <i aria-hidden="true" class="fab fa-github"></i>
-            </a>
-            <a
-              href="https://example.com"
-              aria-label="live preview"
-              class="link link--icon"
-            >
-              <i aria-hidden="true" class="fas fa-external-link-alt"></i>
-            </a>
-          </div>
+        <div class="project">
+          <h3>Hack covid</h3>
+          <p class="project__description">
+              Project to show rate of infection by the virus over time in the states of Brazil
+          </p>
+          <ul class="project__stack">
+            <li class="project__stack-item">D3.js</li>
+            <li class="project__stack-item">Dataviz</li>
+          </ul>
+  
+          <a
+            href="https://github.com/hackcovid-br/rt-app"
+            aria-label="source code"
+            class="link link--icon"
+          >
+            <i aria-hidden="true" class="fab fa-github"></i>
+          </a>
+  
+          <a
+            href="http://hackcovid.com.br/"
+            aria-label="live preview"
+            class="link link--icon"
+          >
+            <i aria-hidden="true" class="fas fa-external-link-alt"></i>
+          </a>
         </div>
+  
+        <div class="project">
+          <h3>DCOP ADOPT</h3>
+          <p class="project__description">
+            An implementation of the algorithm ADOPT to solve Distributed
+            Constraints Optimization Problems(DCOPs) using the JADE framework
+          </p>
+          <ul class="project__stack">
+            <li class="project__stack-item">Java</li>
+            <li class="project__stack-item">Jade-Tilab</li>
+            <li class="project__stack-item">Docker</li>
+          </ul>
+
+          <a
+            href="https://github.com/SMA-FGA/dcop-adopt"
+            aria-label="source code"
+            class="link link--icon"
+          >
+            <i aria-hidden="true" class="fab fa-github"></i>
+          </a>
+          <!-- <a
+            href="https://example.com"
+            aria-label="live preview"
+            class="link link--icon"
+          >
+            <i aria-hidden="true" class="fas fa-external-link-alt"></i>
+          </a> -->
+        </div>
+
+      </div>
       </section>
+
 
       <!-- Contact -->
       <section class="section contact center" id="contact">
